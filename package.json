@@ -6,11 +6,17 @@
   "dependencies": {},
   "devDependencies": {
     "babel-eslint": "^10.0.1",
+    "eslint": "^5.11.0",
     "eslint-plugin-prettier": "^3.0.0",
-    "prettier": "^1.15.3"
+    "prettier": "^1.15.3",
+    "prisma": "^1.23.2"
   },
   "scripts": {
     "test": "echo \"No tests yet\""
+  },
+  "engines": {
+    "node": ">=10.0 <11.0",
+    "npm": ">=6.0 <7.0"
   },
   "repository": {
     "type": "git",

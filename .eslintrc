@@ -11,8 +11,9 @@
   "plugins": ["prettier"],
   "rules": {
     "semi": 2,
-    "prettier/prettier": "warn"
+    "prettier/prettier": "warn",
   },
+  "extends": "eslint:recommended",
   "env": {
     "browser": true
   }
