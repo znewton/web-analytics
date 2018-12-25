@@ -1,0 +1,10 @@
+endpoint: https://us1.prisma.sh/zach-newton-0799f1/web-analytics/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: typescript-client
+    output: ./generated/prisma-client/
+
+hooks:
+  post-deploy:
+    - prisma generate
